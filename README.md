@@ -19,3 +19,7 @@ Create your own MySQL database and import the `users.sql` file to create a basic
 Copy `.env.sample` into `.env` in your project root
 
 Then, update the variables with database login info created in the previous step
+
+### Run Locally
+
+Run this command in your project root: `php -S localhost:8080`
