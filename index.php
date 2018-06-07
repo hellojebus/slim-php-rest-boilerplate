@@ -40,7 +40,10 @@ require 'app/config/eloquent.php';
  * Routes
  * */
 
-require 'app/routes.php';
+foreach (glob("app/routes/*.php") as $filename)
+{
+	include $filename;
+}
 
 /*
  * Run App
