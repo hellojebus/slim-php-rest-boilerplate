@@ -36,6 +36,11 @@ require 'app/config/eloquent.php';
  * Models
  * */
 
+foreach (glob("app/models/*.php") as $filename)
+{
+	include $filename;
+}
+
 /*
  * Routes
  * */
