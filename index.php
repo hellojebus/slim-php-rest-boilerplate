@@ -40,6 +40,8 @@ require 'app/config/eloquent.php';
  * Routes
  * */
 
+require 'app/routes.php';
+
 /*
  * Run App
  * */
