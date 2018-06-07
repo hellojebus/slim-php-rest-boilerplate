@@ -15,10 +15,10 @@ $settings = [
 		'db'                  => [
 			// Eloquent configuration
 			'driver'    => 'mysql',
-			'host'      => $db["host"],
-			'database'  => $db["db"],
-			'username'  => $db["username"],
-			'password'  => $db["password"],
+			'host'      => getenv("DB_HOST"),
+			'database'  => getenv("DB_NAME"),
+			'username'  => getenv("DB_USER"),
+			'password'  => getenv("DB_PASSWORD"),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

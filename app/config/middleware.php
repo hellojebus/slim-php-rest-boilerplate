@@ -13,8 +13,8 @@ $container = $app->getContainer();
  * */
 
 $options = [
-	"secret" => $jwtSecret,
-	"passthrough" => ["/dev/", "/auth/", $stableVer."/public", "/tasks"],
+	"secret" => getenv("JWT_SECRET"),
+	"passthrough" => ["/dev/", "/auth/", $apiVersion."/public", "/tasks"],
 	"path" => ["/v1/"],
 	"attribute" => "jwt",
 	"secure" => false,
