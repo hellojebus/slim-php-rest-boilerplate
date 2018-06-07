@@ -11,3 +11,5 @@ Run `composer install` in your project root.
 ### Setup Environment Variables
 
 Copy `.env.sample` into `.env` in your project root
+
+Then, update the variables with database details
