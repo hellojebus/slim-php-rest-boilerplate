@@ -1,0 +1,10 @@
+{
+  "require": {
+    "slim/slim": "^3.0",
+    "illuminate/database": "^5.4",
+    "tuupola/slim-jwt-auth": "^2.3",
+    "tuupola/base62": "^0.7.0",
+    "tuupola/cors-middleware": "^0.5.2",
+    "vlucas/phpdotenv": "^2.4"
+  }
+}
