@@ -12,6 +12,8 @@ Run `composer install` in your project root.
 
 Create your own MySQL database and import the `users.sql` file to create a basic users table
 
+**I recommend using Sequel Pro for managing your database**
+
 ### Setup Environment Variables
 
 Copy `.env.sample` into `.env` in your project root
