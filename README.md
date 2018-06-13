@@ -12,10 +12,6 @@ Run `composer install` in your project root.
 
 Create your own MySQL database and import the `users.sql` file to create a basic users table
 
-Create a DB using our DevS3 MediaTemple account! It's important we have our own so we don't break each other's database :D
-
-**I recommend using Sequel Pro for managing your database**
-
 ### Setup Environment Variables
 
 Copy `.env.sample` into `.env` in your project root
