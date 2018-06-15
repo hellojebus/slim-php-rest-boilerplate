@@ -10,8 +10,10 @@ require './vendor/autoload.php';
  * Load Config Vars
  * */
 
-$dotenv = new Dotenv\Dotenv(__DIR__);
-$dotenv->load();
+if($_SERVER['SERVER_NAME'] == "localhost"){
+	$dotenv = new Dotenv\Dotenv(__DIR__);
+	$dotenv->load();
+}
 
 /*
  * App Setup
